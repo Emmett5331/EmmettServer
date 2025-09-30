@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: prompthub
+Version: 1.0.0
+Summary: Python terminal helper with colored messages, CLI commands, and utilities
+Author-email: Nathan <gutz85@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: colorama>=0.4.6
+
+\# PromptHub
+
+
+
+\*\*PromptHub\*\* is a simple Python terminal helper package that makes it easy to create terminal apps and print colored messages.  
+
+You can use it as a \*\*Python package\*\* or build CLI tools with it.
+
+
+
+---
+
+
+
+\## Features
+
+
+
+\- Print colored messages easily:
+
+```python
+
+import prompthub
+
+
+
+prompthub.say("Hello!")                # Default green
+
+prompthub.say("Warning!", color="yellow")
+
+prompthub.say("Error!", color="red")
+
+
+
